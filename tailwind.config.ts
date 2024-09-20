@@ -11,7 +11,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        grey: {
+        gray: {
           DEFAULT:"var(--grey)",
           50:"var(--grey-50)",
           100:"var(--grey-100)",

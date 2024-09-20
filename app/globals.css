@@ -32,3 +32,8 @@
   --grey-950: #FFFFFF;
 }
 
+@layer{
+  .tes{
+    @apply outline-dashed outline-red-500
+  }
+}
