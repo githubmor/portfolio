@@ -16,7 +16,7 @@ const Header = () => {
         <IconButton className="md:hidden" onClick={() => setShowDrawer(true)}>
           <HamburgerIcon />
         </IconButton>
-        <Menus className="hidden md:block" />
+        <Menus className="hidden md:inline" />
       </header>
     </>
   );
