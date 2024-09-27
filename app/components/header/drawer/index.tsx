@@ -1,3 +1,8 @@
+import IconButton from "../../icon-button";
+import { Brand } from "../components";
+import Menus from "../menus";
+import CloseIcon from "./close-icon";
+
 type Props = {
   show: boolean;
   onHide: () => void;
@@ -11,8 +16,16 @@ function Drawer({ show, onHide }: Props) {
         !show && "translate-x-full"
       }`}
     >
-      <div className={`absolute right-0 w-10/12 h-full bg-gray drop-shadow-2xl `}>
-        <span onClick={onHide}>close</span>
+      <div
+        className={`absolute right-0 w-10/12 h-full bg-gray drop-shadow-2xl `}
+      >
+        <div className="w-full flex justify-between items-center p-4 border-b border-gray-100">
+          <Brand />
+          <IconButton onClick={onHide}>
+            <CloseIcon />
+          </IconButton>
+        </div>
+        <Menus />
       </div>
     </div>
   );
