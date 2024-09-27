@@ -1,5 +1,6 @@
 import IconButton from "../../icon-button";
 import { Brand } from "../components";
+import Actions from "../components/actions";
 import Menus from "../menus";
 import CloseIcon from "./close-icon";
 
@@ -26,6 +27,7 @@ function Drawer({ show, onHide }: Props) {
           </IconButton>
         </div>
         <Menus />
+        <Actions/>
       </div>
     </div>
   );

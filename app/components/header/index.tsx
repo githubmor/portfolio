@@ -5,6 +5,7 @@ import Drawer from "./drawer";
 import HamburgerIcon from "./ham-icon";
 import Menus from "./menus";
 import { Brand } from "./components";
+import Actions from "./components/actions";
 
 const Header = () => {
   const [showDrawer, setShowDrawer] = useState(false);
@@ -16,7 +17,11 @@ const Header = () => {
         <IconButton className="md:hidden" onClick={() => setShowDrawer(true)}>
           <HamburgerIcon />
         </IconButton>
-        <Menus className="hidden md:inline" />
+        <div className="flex gap-6 items-center divide-x">
+          <Menus className="hidden md:inline" />
+          {/* <div className="border-l border-" */}
+          <Actions className="!ps-6 hidden md:block" />
+        </div>
       </header>
     </>
   );

@@ -7,7 +7,7 @@ type Props = {
 
 const Button = ({text,className=""}: Props) => {
   return (
-    <button className={`px-4 py-[0.375rem] bg-gray-900 text-gray-50 hover:text-gray-700 active:text-gray-800 ${className}`}>{text}</button>
+    <button className={`px-4 py-[0.375rem] rounded-xl bg-gray-900 text-gray-50 hover:bg-gray-700 active:bg-gray-800 ${className}`}>{text}</button>
   )
 }
 
