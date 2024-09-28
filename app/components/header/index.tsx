@@ -17,10 +17,9 @@ const Header = () => {
         <IconButton className="md:hidden" onClick={() => setShowDrawer(true)}>
           <HamburgerIcon />
         </IconButton>
-        <div className="flex gap-6 items-center divide-x">
-          <Menus className="hidden md:inline" />
-          {/* <div className="border-l border-" */}
-          <Actions className="!ps-6 hidden md:block" />
+        <div className="hidden md:flex  gap-6 items-center divide-x">
+          <Menus />
+          <Actions className="!ps-6" />
         </div>
       </header>
     </>
