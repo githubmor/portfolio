@@ -1,13 +1,15 @@
 
 import Header from "./components/header";
+import Hero from "./components/hero";
 
 export default function Home() {
-   
   return (
-    <div className="w-full h-full">
+    <div>
       <Header />
-      <main className=" flex gap-4"></main>
-      <footer className=""></footer>
+      <main className="flex flex-col">
+        <Hero />
+      </main>
+      <footer className="">footer</footer>
     </div>
   );
 }

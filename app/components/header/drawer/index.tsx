@@ -13,7 +13,7 @@ function Drawer({ show, onHide }: Props) {
 
   return (
     <div
-      className={`w-screen h-screen absolute md:hidden bg-gray-900/10 backdrop-blur-sm duration-300 z-30 -right-0 top-0  ${
+      className={`w-screen h-full absolute md:hidden bg-gray-900/10 backdrop-blur-sm duration-300 z-30 -right-0 top-0  ${
         !show && "translate-x-full"
       }`}
     >
@@ -27,7 +27,7 @@ function Drawer({ show, onHide }: Props) {
           </IconButton>
         </div>
         <Menus />
-        <Actions/>
+        <Actions />
       </div>
     </div>
   );
