@@ -1,5 +1,5 @@
 import Tag from "../tag";
-import Work from "./work";
+import Position from "./position";
 
 function Experience() {
   return (
@@ -15,10 +15,10 @@ function Experience() {
             </span>
           </div>
         </div>
-        <Work />
-        <Work />
-        <Work />
-        <Work />
+        <Position />
+        <Position />
+        <Position />
+        <Position />
       </div>
     </div>
   );

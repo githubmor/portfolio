@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-function Work() {
+function Position() {
   return (
     <div className="w-full flex flex-col p-8 bg-gray-100 shadow-md rounded-xl">
       <div className="w-full flex flex-col gap-4 md:flex-row md:gap-12">
@@ -34,4 +34,4 @@ function Work() {
   );
 }
 
-export default Work;
+export default Position;
