@@ -27,21 +27,13 @@ function About() {
             </span>
             <div className="flex flex-col gap-4">
               <span className="text-gray-600 text-base">
-                {`I'm a passionate, self-proclaimed designer who specializes
-                    in full stack development (React.js & Node.js). I am very
-                    enthusiastic about bringing the technical and visual aspects
-                    of digital products to life. User experience, pixel perfect
-                    design, and writing clear, readable, highly performant code
-                    matters to me.`}
+                {`I'm a Front-End Developer and Web Team Lead with over three years of hands-on experience building and maintaining web applications. My main toolkit includes JavaScript, TypeScript, React, and Next.js, but I've also spent time on the backend using .NET Core with C#. I love getting into the code, making sure it's clean, scalable, and maintainable. Following Clean Architecture principles is something I take seriously to keep projects solid and organized.`}
               </span>
               <span className="text-gray-600 text-base">
-                {`I began my journey as a web developer in 2015, and since then, I've continued to grow and evolve as a developer, taking on new challenges and learning the latest technologies along the way. Now, in my early thirties, 7 years after starting my web development journey, I'm building cutting-edge web applications using modern technologies such as Next.js, TypeScript, Nestjs, Tailwindcss, Supabase and much more.`}
+                {`I’m always excited to explore new technologies and figure out ways to solve complex problems. Whether it’s learning a new framework or diving into an unfamiliar project, I enjoy the challenge and the growth that comes with it. I believe in staying adaptable and continuously learning to keep up with the ever-evolving tech landscape.`}
               </span>
               <span className="text-gray-600 text-base">
-                {`I am very much a progressive thinker and enjoy working on products end to end, from ideation all the way to development.`}
-              </span>
-              <span className="text-gray-600 text-base">
-                {`When I'm not in full-on developer mode, you can find me hovering around on twitter or on indie hacker, witnessing the journey of early startups or enjoying some free time. You can follow me on Twitter where I share tech-related bites and build in public, or you can follow me on GitHub.`}
+                {`Collaboration is something I’m truly passionate about. I love working with other developers, bouncing ideas off each other, and figuring out the best solutions as a team. I’m always looking for opportunities to connect with like-minded individuals, join teams, and contribute to exciting projects.`}
               </span>
             </div>
           </div>

@@ -15,10 +15,37 @@ function Experience() {
             </span>
           </div>
         </div>
-        <Position />
-        <Position />
-        <Position />
-        <Position />
+        <Position
+          title="Web Team Lead"
+          duration="Mar 2024 - Present"
+          expriences={[
+            "Managed a web team consisting of 2 front-end developers, 1 back-end developer, and a designer",
+            "Developed symmetric and asymmetric encryption methods in JavaScript for front-end and C# for back-end",
+            "Designed a handshake protocol to enhance security between front-end and back-end communications",
+            "Implemented Single Sign-In for the EMR project, integrating MVC and React projects",
+            "Managed the development of 4 front-end applications using React and back-end with .Net 8, in collaboration with the web team",
+          ]}
+        />
+        <Position
+          title="Team Supervisor - Full Stack Developer"
+          duration="Jul 2023 - Apr 2024"
+          expriences={[
+            "Developed 3 new front-end applications using React and back-end with .Net 8",
+            "Created a back-end based on .Net 8 using minimal API, Swagger, and JWT tokens for authentication",
+            "Managed version control for projects on a private GitHub repository and facilitated team coding",
+            "Developed the experimental LearnAI project for integration with ChatGPT and creating automated prompts",
+          ]}
+        />
+        <Position
+          title="Frontend Developer React.js"
+          duration="Dec 2021 - Sep 2023"
+          expriences={[
+            "Built and developed 3 web applications using React and .Net",
+            "Created a monorepo for React component projects using Lerna",
+            "Implemented an npm private registry using Verdaccio on the company server",
+            "Developed an Adapter project to facilitate the integration and use of the company's legacy DLLs",
+          ]}
+        />
       </div>
     </div>
   );

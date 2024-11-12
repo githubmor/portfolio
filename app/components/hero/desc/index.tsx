@@ -10,7 +10,7 @@ function Desc() {
       <div className="flex flex-col gap-2 w-full">
         <span className="text-4xl font-semibold text-gray-900 md:text-6xl md:font-bold">{`Hi, I'm Morteza 👋`}</span>
         <span className="text-base text-gray-600">
-          {`I'm a full stack developer (React.js & Node.js) with a focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even though I have been creating web applications for over 7 years, I still love it as if it was something new.`}
+          {`I'm a Front-End Developer and Web Team Lead with over 3 years of experience in building web apps. I specialize in JavaScript, TypeScript, React, and Next.js, with additional skills in .NET Core for backend development. I'm passionate about writing clean, scalable code and collaborating with teams to solve complex challenges.`}
         </span>
       </div>
       <div className="flex flex-col gap-2 w-full">
