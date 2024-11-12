@@ -1,6 +1,7 @@
 import About from "./components/about";
 import ContactMe from "./components/contact-me";
 import Experience from "./components/experience";
+import Footer from "./components/footer";
 import Header from "./components/header";
 import Hero from "./components/hero";
 import Skills from "./components/skills";
@@ -19,10 +20,8 @@ export default function Home() {
         <Work />
         <Testimonials />
         <ContactMe />
-        {/* this div is fake just for scroll , delete it in production . darzi */}
-        <div className="h-20"></div>
+        <Footer />
       </main>
-      <footer className="">footer</footer>
     </div>
   );
 }
