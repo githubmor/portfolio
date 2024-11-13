@@ -2,17 +2,16 @@ import Image from "next/image";
 import IconButton from "../../components/icon-button";
 import Tag from "../../components/tag";
 import DirectIcon from "./direct-icon";
+import w1 from "./w1.png";
 
 function Role() {
   return (
     <div className="w-full flex flex-col bg-gray-100 rounded-xl shadow-2xl md:flex-row md:odd:flex-row-reverse">
       <div className="w-full flex justify-center items-center p-8 md:p-12 bg-gray-200 border border-gray-100 rounded-t-xl md:rounded-tr-none md:rounded-l-xl">
         <Image
-          src="/w1.png"
+          src={w1}
           className="shadow-lg rounded-xl w-full h-full object-cover"
           alt="w1"
-          width={496}
-          height={402}
         />
       </div>
       <div className="w-full flex flex-col items-center gap-6 p-8 md:p-12 rounded-l-xl">

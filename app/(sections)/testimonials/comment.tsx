@@ -1,10 +1,11 @@
 import Image from "next/image";
+import user from "./user.svg";
 
 function Comment() {
   return (
     <div className="w-full h-full flex flex-col items-center gap-6 p-8 md:p-12 rounded-xl bg-gray-100 shadow-2xl">
       <div className="w-16 h-16 flex justify-center items-center  bg-[#9CA3AF] rounded-full">
-        <Image src="/user.svg" width={41} height={40} alt="user" />
+        <Image src={user} alt="user" />
       </div>
       <span className="text-gray-600">
         “Job well done! I am really impressed. He is very very good at what he

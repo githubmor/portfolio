@@ -1,5 +1,6 @@
 import Tag from "../../components/tag";
 import Image from "next/image";
+import pic2 from "./Pic2.png";
 
 function About() {
   return (
@@ -14,10 +15,8 @@ function About() {
           <div className="relative w-full md:w-1/2 pb-5 flex justify-center md:justify-start items-center">
             <div className="absolute top-0 bg-gray-200 border-gray-50 border-8 md:-translate-x-6 translate-y-5 md:translate-y-7 w-[20rem] md:w-[25rem] md:h-[30rem] h-[22.5rem]" />
             <Image
-              width={280}
-              height={360}
               className="top-0 z-10 border-gray-50 border-8 md:w-[25rem] md:h-[30rem]"
-              src="/Pic2.png"
+              src={pic2}
               alt="pic"
             />
           </div>

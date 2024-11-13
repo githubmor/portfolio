@@ -1,4 +1,5 @@
 import Image from "next/image";
+import psdlogo from "./psd-logo.png";
 
 type Props = {
   duration: string;
@@ -11,7 +12,7 @@ function Position({ duration, expriences, title }: Props) {
     <div className="w-full flex flex-col p-8 bg-gray-100 shadow-md rounded-xl">
       <div className="w-full flex flex-col gap-4 md:flex-row md:gap-12">
         <div className="flex flex-col gap-3 ">
-          <Image src="/psd-logo.png" alt="logo-co" width={102} height={28} />
+          <Image src={psdlogo} alt="logo-co" />
         </div>
         <div className=" flex gap-6 md:order-3 md:flex-col md:h-7 ">
           <span className="text-gray-700 whitespace-nowrap ">{duration}</span>
