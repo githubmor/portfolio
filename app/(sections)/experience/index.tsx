@@ -1,9 +1,10 @@
+import Section from "@/app/components/section";
 import Tag from "../../components/tag";
 import Position from "./position";
 
 function Experience() {
   return (
-    <div className="w-full flex justify-center items-center px-4 md:px-20 py-16 md:py-24 bg-gray-50 ">
+    <Section id="experience" darker>
       <div className="w-full flex flex-col justify-center items-center gap-6 md:gap-12 md:px-8">
         <div className="w-full flex flex-col gap-4">
           <div className="w-full flex justify-center items-center">
@@ -47,7 +48,7 @@ function Experience() {
           ]}
         />
       </div>
-    </div>
+    </Section>
   );
 }
 

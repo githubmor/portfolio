@@ -1,10 +1,11 @@
 import Tag from "../../components/tag";
 import Image from "next/image";
 import pic2 from "./Pic2.png";
+import Section from "@/app/components/section";
 
 function About() {
   return (
-    <div className="w-full h-min bg-gray-50 px-4 md:px-20 py-16 md:py-24">
+    <Section id="about" darker>
       <div className="flex flex-col gap-6 md:gap-12 md:px-8">
         <div className="w-full h-min">
           <div className="flex justify-center items-center">
@@ -38,7 +39,7 @@ function About() {
           </div>
         </div>
       </div>
-    </div>
+    </Section>
   );
 }
 

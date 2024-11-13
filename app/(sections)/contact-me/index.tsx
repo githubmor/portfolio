@@ -1,16 +1,17 @@
 "use client";
+import Section from "@/app/components/section";
+import IconButton from "../../components/icon-button";
+import Tag from "../../components/tag";
 import FigmaIcon from "../hero/desc/figma-icon";
 import GithubIcon from "../hero/desc/github-icon";
 import LinkedinIcon from "../hero/desc/linkedin-icon";
-import IconButton from "../../components/icon-button";
-import Tag from "../../components/tag";
 import CopyIcon from "./copy-icon";
 import EmailIcon from "./email-icon";
 import PhoneIcon from "./phone-icon";
 
 function ContactMe() {
   return (
-    <div className="w-full flex flex-col justify-center items-center px-4 md:px-20 py-16 md:py-24 bg-gray">
+    <Section id="contact-me">
       <div className="w-full flex flex-col justify-center items-center gap-6 md:gap-12 md:px-8">
         <div className="w-full flex flex-col gap-4">
           <div className="w-full flex flex-col justify-center items-center">
@@ -64,7 +65,7 @@ function ContactMe() {
           </div>
         </div>
       </div>
-    </div>
+    </Section>
   );
 }
 

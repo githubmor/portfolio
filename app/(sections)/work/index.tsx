@@ -1,9 +1,10 @@
+import Section from "@/app/components/section";
 import Tag from "../../components/tag";
 import Role from "./role";
 
 function Work() {
   return (
-    <div className="w-full flex flex-col justify-center items-center px-4 md:px-20 py-16 md:py-24 bg-gray ">
+    <Section id="work">
       <div className="w-full flex flex-col justify-center items-center gap-6 md:gap-12 md:px-8">
         <div className="w-full flex flex-col gap-4">
           <div className="w-full flex flex-col justify-center items-center">
@@ -19,7 +20,7 @@ function Work() {
         <Role />
         <Role />
       </div>
-    </div>
+    </Section>
   );
 }
 

@@ -1,10 +1,11 @@
+import Section from "@/app/components/section";
 import Tag from "../../components/tag";
 import Tech from "./tech";
 import { techs } from "./utils";
 
 function Skills() {
   return (
-    <div className="w-full h-min flex flex-col px-4 py-16 md:px-20 md:py-24 justify-center items-center bg-gray">
+    <Section id="Skills">
       <div className="w-full flex flex-col gap-6 md:gap-12 md:px-8">
         <div className="flex flex-col gap-4">
           <div className="w-full flex justify-center items-center">
@@ -24,7 +25,7 @@ function Skills() {
           </div>
         </div>
       </div>
-    </div>
+    </Section>
   );
 }
 
