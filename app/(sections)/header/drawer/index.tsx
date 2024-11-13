@@ -12,13 +12,11 @@ type Props = {
 function Drawer({ show, onHide }: Props) {
   return (
     <div
-      className={`w-screen h-full absolute md:hidden bg-gray-900/10 backdrop-blur-sm duration-300 z-30 -right-0 top-0  ${
+      className={`w-screen h-full fixed md:hidden bg-gray-900/10 backdrop-blur-sm duration-300 z-30 -right-0 top-0  ${
         !show && "translate-x-full"
       }`}
     >
-      <div
-        className={`absolute right-0 w-10/12 h-full bg-gray drop-shadow-2xl `}
-      >
+      <div className={`fixed right-0 w-10/12 h-full bg-gray drop-shadow-2xl `}>
         <div className="w-full flex justify-between items-center p-4 border-b border-gray-100">
           <Brand />
           <IconButton onClick={onHide}>
