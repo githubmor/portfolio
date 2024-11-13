@@ -7,7 +7,7 @@ function NextIcon() {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_407_2179)">
+      <g clipPath="url(#clip0_407_2179)">
         <mask
           id="mask0_407_2179"
           style={{ maskType: "alpha" }}
@@ -27,7 +27,7 @@ function NextIcon() {
             d="M32.0002 62.9333C49.0842 62.9333 62.9336 49.084 62.9336 32C62.9336 14.916 49.0842 1.06665 32.0002 1.06665C14.9162 1.06665 1.06689 14.916 1.06689 32C1.06689 49.084 14.9162 62.9333 32.0002 62.9333Z"
             fill="black"
             stroke="white"
-            stroke-width="6"
+            strokeWidth="6"
           />
           <path
             d="M53.1586 56.0071L24.584 19.2H19.2002V44.7893H23.5073V24.6697L49.7776 58.6115C50.963 57.8183 52.0923 56.9475 53.1586 56.0071Z"
@@ -48,8 +48,8 @@ function NextIcon() {
           y2="57.0666"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="white" stop-opacity="0" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="white" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_407_2179"
@@ -59,8 +59,8 @@ function NextIcon() {
           y2="38"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="white" stop-opacity="0" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="white" stopOpacity="0" />
         </linearGradient>
         <clipPath id="clip0_407_2179">
           <rect width="64" height="64" fill="white" />
