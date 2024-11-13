@@ -1,0 +1,9 @@
+export { default as About } from "./about";
+export { default as ContactMe } from "./contact-me";
+export { default as Experience } from "./experience";
+export { default as Footer } from "./footer";
+export { default as Hero } from "./hero";
+export { default as Skills } from "./skills";
+export { default as Testimonials } from "./testimonials";
+export { default as Work } from "./work";
+export { default as Header } from "./header";

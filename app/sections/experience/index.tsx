@@ -1,4 +1,4 @@
-import Tag from "../tag";
+import Tag from "../../components/tag";
 import Position from "./position";
 
 function Experience() {

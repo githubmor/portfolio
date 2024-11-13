@@ -1,4 +1,4 @@
-import Tag from "../tag";
+import Tag from "../../components/tag";
 import Image from "next/image";
 
 function About() {

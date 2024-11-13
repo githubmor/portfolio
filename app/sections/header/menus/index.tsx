@@ -1,4 +1,4 @@
-import Links from "../../link";
+import Links from "../../../components/link";
 
 type Props = {
   className?: string;

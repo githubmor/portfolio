@@ -1,12 +1,14 @@
-import About from "./components/about";
-import ContactMe from "./components/contact-me";
-import Experience from "./components/experience";
-import Footer from "./components/footer";
-import Header from "./components/header";
-import Hero from "./components/hero";
-import Skills from "./components/skills";
-import Testimonials from "./components/testimonials";
-import Work from "./components/work";
+import {
+  About,
+  ContactMe,
+  Experience,
+  Footer,
+  Header,
+  Hero,
+  Skills,
+  Testimonials,
+  Work,
+} from "./sections";
 
 export default function Home() {
   return (

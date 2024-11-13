@@ -1,4 +1,4 @@
-import IconButton from "../../icon-button";
+import IconButton from "../../../components/icon-button";
 import { Brand } from "../components";
 import Actions from "../components/actions";
 import Menus from "../menus";
@@ -10,7 +10,6 @@ type Props = {
 };
 
 function Drawer({ show, onHide }: Props) {
-
   return (
     <div
       className={`w-screen h-full absolute md:hidden bg-gray-900/10 backdrop-blur-sm duration-300 z-30 -right-0 top-0  ${

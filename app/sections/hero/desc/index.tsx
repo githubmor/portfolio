@@ -1,4 +1,4 @@
-import IconButton from "../../icon-button";
+import IconButton from "../../../components/icon-button";
 import FigmaIcon from "./figma-icon";
 import GithubIcon from "./github-icon";
 import LinkedinIcon from "./linkedin-icon";

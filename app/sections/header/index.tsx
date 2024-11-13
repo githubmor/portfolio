@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import IconButton from "../icon-button";
+import IconButton from "../../components/icon-button";
 import Drawer from "./drawer";
 import HamburgerIcon from "./ham-icon";
 import Menus from "./menus";
