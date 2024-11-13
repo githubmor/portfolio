@@ -8,7 +8,7 @@ import {
   Skills,
   Testimonials,
   Work,
-} from "./sections";
+} from "./(sections)";
 
 export default function Home() {
   return (
