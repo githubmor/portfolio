@@ -1,18 +1,20 @@
-import React from 'react'
-import SwitchTheme from './switch-theme'
-import Button from '@/app/components/button'
+import React from "react";
+import SwitchTheme from "./switch-theme";
+import DownloadCv from "./download-cs";
 
 type Props = {
-    className?:string
-}
+  className?: string;
+};
 
-function Actions({className=""}: Props) {
+function Actions({ className = "" }: Props) {
   return (
-    <div className={`flex flex-col md:flex md:flex-row gap-4 p-4 md:p-0 ${className}`}>
+    <div
+      className={`flex flex-col md:flex md:flex-row gap-4 p-4 md:p-0 ${className}`}
+    >
       <SwitchTheme />
-      <Button  text="Download CV" />
+      <DownloadCv />
     </div>
   );
 }
 
-export default Actions
+export default Actions;

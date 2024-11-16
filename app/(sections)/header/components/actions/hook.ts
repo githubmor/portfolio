@@ -20,3 +20,18 @@ export const useThemeSwitch =()=>{
   return {toggleTheme,theme};
 
 }
+
+export const useCVDownload = () => {
+  const handleDownload = () => {
+    const url = "/MortezaDarzi.pdf"; // Path to the PDF file in the public folder
+
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "MortezaDarzi.pdf"; // Specify the file name
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+  return handleDownload;
+};
