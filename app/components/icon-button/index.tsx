@@ -12,8 +12,13 @@ type Props = {
 function IconButton({ children, href, className = "", onClick }: Props) {
   return (
     <Link
-      onClick={onClick}
-      href={href ?? {}}
+      onClick={(e) => {
+        if (onClick) {
+          e.preventDefault();
+          onClick();
+        }
+      }}
+      href={href ?? "#"}
       target={href && "_blank"}
       role="button"
       className={`p-[0.375rem] w-min h-min hover:bg-gray-100 text-gray-600 rounded-lg active:bg-gray-200 ${className}`}
