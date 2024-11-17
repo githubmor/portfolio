@@ -1,8 +1,5 @@
-import IconButton from "../../../components/icon-button";
-import FigmaIcon from "./figma-icon";
-import GithubIcon from "./github-icon";
-import LinkedinIcon from "./linkedin-icon";
 import MarkerIcon from "../marker-icon";
+import Links from "./links";
 
 function Desc() {
   return (
@@ -31,17 +28,7 @@ function Desc() {
           <span className="text-base">Available for new projects</span>
         </div>
       </div>
-      <div className="flex gap-1 text-gray-600">
-        <IconButton>
-          <GithubIcon />
-        </IconButton>
-        <IconButton>
-          <LinkedinIcon />
-        </IconButton>
-        <IconButton>
-          <FigmaIcon />
-        </IconButton>
-      </div>
+      <Links />
     </div>
   );
 }

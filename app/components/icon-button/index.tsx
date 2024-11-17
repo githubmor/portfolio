@@ -1,21 +1,25 @@
-'use client'
+"use client";
+import Link from "next/link";
 import { MouseEvent, ReactNode } from "react";
 
 type Props = {
   children: ReactNode;
-  onClick?: (e?: MouseEvent<HTMLDivElement, globalThis.MouseEvent>) => void;
-  className?:string
+  onClick?: (e?: MouseEvent<HTMLAnchorElement, globalThis.MouseEvent>) => void;
+  className?: string;
+  href?: string;
 };
 
-function IconButton({ children,onClick, className="" }: Props) {
+function IconButton({ children, href, className = "", onClick }: Props) {
   return (
-    <div
-    onClick={onClick}
+    <Link
+      onClick={onClick}
+      href={href ?? {}}
+      target={href && "_blank"}
       role="button"
       className={`p-[0.375rem] w-min h-min hover:bg-gray-100 text-gray-600 rounded-lg active:bg-gray-200 ${className}`}
     >
       {children}
-    </div>
+    </Link>
   );
 }
 

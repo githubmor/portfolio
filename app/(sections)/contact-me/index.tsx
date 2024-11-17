@@ -30,7 +30,7 @@ function ContactMe() {
             <span className="text-gray-900 font-semibold text-lg">
               pc2man@gmail.com
             </span>
-            <IconButton onClick={() => console.log("copy")}>
+            <IconButton href="">
               <CopyIcon />
             </IconButton>
           </div>
@@ -39,7 +39,7 @@ function ContactMe() {
             <span className="text-gray-900 font-semibold text-lg">
               +98 9119010041
             </span>
-            <IconButton onClick={() => console.log("copy")}>
+            <IconButton href="">
               <CopyIcon />
             </IconButton>
           </div>
@@ -51,13 +51,13 @@ function ContactMe() {
             </span>
             <div className="w-full flex flex-col justify-center items-center gap-4">
               <div className="flex items-center gap-1">
-                <IconButton>
+                <IconButton href="">
                   <GithubIcon />
                 </IconButton>
-                <IconButton>
+                <IconButton href="">
                   <LinkedinIcon />
                 </IconButton>
-                <IconButton>
+                <IconButton href="">
                   <FigmaIcon />
                 </IconButton>
               </div>
