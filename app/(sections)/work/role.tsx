@@ -10,18 +10,16 @@ function Role() {
       <div className="w-full flex justify-center items-center p-8 md:p-12 bg-gray-200 border border-gray-100 rounded-t-xl md:rounded-tr-none md:rounded-l-xl">
         <Image
           src={w1}
-          className="shadow-lg rounded-xl w-full h-full object-cover"
+          className="shadow-lg rounded-xl w-full  object-cover"
           alt="w1"
         />
       </div>
       <div className="w-full flex flex-col items-center gap-6 p-8 md:p-12 rounded-l-xl">
         <span className="text-lg text-left w-full font-semibold text-gray-900">
-          Fiskil
+          Portfolio
         </span>
         <span className=" text-gray-600">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec
-          urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in
-          faucibus orci luctus et ultrices posuere cubilia curae.
+          Built a personal portfolio with Next.js, TypeScript, Tailwind and DaisyUI, demonstrating expertise in modern web development and responsive design
         </span>
         <div className="w-full flex flex-wrap gap-2 even:flex-row-reverse">
           <Tag text="React" />
@@ -32,7 +30,7 @@ function Role() {
           <Tag text="Figma" />
         </div>
         <div className="w-full flex gap-3">
-          <IconButton>
+          <IconButton href="https://morteza-darzi.liara.run/">
             <DirectIcon />
           </IconButton>
         </div>
