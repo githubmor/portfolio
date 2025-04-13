@@ -13,7 +13,7 @@ function About() {
           </div>
         </div>
         <div className="w-full h-min flex flex-col md:flex md:flex-row gap-12 ">
-          <div className="relative w-full md:w-1/2 pb-5 flex justify-center md:justify-start items-center">
+          <div className="relative w-full md:w-1/2 pb-5 flex justify-center  items-center">
             <Image
               className="top-0 z-10 border-gray-50 border-8 md:w-[25rem] md:h-[25rem]"
               src={pic2}
