@@ -19,7 +19,7 @@ function Role() {
           Portfolio
         </span>
         <span className=" text-gray-600">
-          Built a personal portfolio with Next.js, TypeScript, Tailwind and DaisyUI, demonstrating expertise in modern web development and responsive design
+          Built a personal portfolio with Next.js, TypeScript, Tailwind CSS, and DaisyUI, featuring a customizable dark and light theme. This project showcases my expertise in modern web development technologies and responsive design principles.
         </span>
         <div className="w-full flex flex-wrap gap-2 even:flex-row-reverse">
           <Tag text="React" />
