@@ -1,6 +1,7 @@
 import Section from "@/app/components/section";
 import Tag from "../../components/tag";
-import Role from "./role";
+import Portfolio from "./portfolio";
+import ShopDr from "./shop-dr";
 
 function Work() {
   return (
@@ -16,9 +17,10 @@ function Work() {
             </span>
           </div>
         </div>
-        <Role />
-        <Role />
-        <Role />
+        <Portfolio />
+        <ShopDr />
+        {/* <Role />
+        <Role /> */}
       </div>
     </Section>
   );
