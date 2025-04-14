@@ -8,7 +8,7 @@ A modern developer portfolio built with **Next.js**, **TypeScript**, and **Tailw
 - 🧩 Reusable UI components with DaisyUI  
 
 
-![Portfolio Screenshot](./screenshot.png) **(Add your screenshot here)***
+![Portfolio Screenshot](./screenshot.png) 
 
 ## Demo  
 🚀 **Try it out!**  
@@ -17,14 +17,13 @@ A modern developer portfolio built with **Next.js**, **TypeScript**, and **Tailw
 Key demo features:  
 - 🎨 Toggle between light/dark mode  
 - 📄 Navigate project case studies  
-- ✉️ Test the contact form (mock submission)  
 
 ## Technologies  
 ### Frontend  
 - <img src="https://img.icons8.com/color/24/000000/nextjs.png" width="16" alt="Next.js"/> Next.js  
 - <img src="https://img.icons8.com/color/24/000000/typescript.png" width="16" alt="TypeScript"/> TypeScript  
 - <img src="https://img.icons8.com/color/24/000000/tailwindcss.png" width="16" alt="Tailwind"/> Tailwind CSS  
-- <img src="https://img.icons8.com/ios-filled/24/000000/daisyui.png" width="16" alt="DaisyUI"/> DaisyUI  
+- <img src="https://emranweb.gallerycdn.vsassets.io/extensions/emranweb/daisyui-snippet/1.0.3/1720590354255/Microsoft.VisualStudio.Services.Icons.Default" width="16" alt="DaisyUI"/> DaisyUI  
 
 ### Tools  
 - <img src="https://img.icons8.com/color/24/000000/git.png" width="16" alt="Git"/> Git  
