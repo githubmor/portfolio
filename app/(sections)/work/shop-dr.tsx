@@ -30,7 +30,7 @@ function ShopDr() {
           <Tag text="Figma" />
         </div>
         <div className="w-full flex gap-3">
-          <IconButton href="http://shop-dr.freehost.io/">
+          <IconButton href="https://shop-dr.liara.run/">
             <DirectIcon />
           </IconButton>
         </div>

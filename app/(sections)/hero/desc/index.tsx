@@ -4,10 +4,10 @@ import Links from "./links";
 function Desc() {
   return (
     <div className="flex flex-col gap-12 w-full">
-      <div className="flex flex-col gap-2 w-full">
-        <span className="text-4xl font-semibold text-gray-900 md:text-6xl md:font-bold">{`Hi, I'm Morteza 👋`}</span>
-        <span className="text-base text-gray-600">
-          {`I'm a Front-End Developer and Web Team Lead with over 3 years of experience in building web apps. I specialize in JavaScript, TypeScript, React, and Next.js, with additional skills in .NET Core for backend development. I'm passionate about writing clean, scalable code and collaborating with teams to solve complex challenges.`}
+      <div className="flex flex-col gap-4 xl:gap-6 w-full">
+        <span className="text-4xl font-semibold text-gray-900 md:text-5xl md:font-bold">{`Hi, I'm Morteza 👋`}</span>
+        <span className="text-base text-gray-600 2xl:leading-8">
+          {`I'm a Full-stack Web Developer with over 3 years of experience in building web apps. I specialize in JavaScript, TypeScript, React, and Next.js, with additional skills in .NET Core for backend development. I'm passionate about writing clean, scalable code and collaborating with teams to solve complex challenges.`}
         </span>
       </div>
       <div className="flex flex-col gap-2 w-full">
