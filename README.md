@@ -1,4 +1,16 @@
 # Portfolio App :rocket:
+## About Me
+I'm **Morteza Darzi**, a Full-Stack Developer and Web Team Lead with over 3 years of experience building scalable web applications. My expertise includes:
+- **Frontend**: React, Next.js, TypeScript, Tailwind
+- **Backend**: C#, .NET Core, REST APIs, JWT
+- **Tools**: Git, Lerna, Verdaccio, Swagger
+
+I'm passionate about learning new technologies and solving complex problems. Check out my [GitHub](https://github.com/githubmor) for more projects!
+
+## Contact
+- **Email**: [morteza2darzi@gmail.com](mailto:morteza2darzi@gmail.com)
+- **GitHub**: [github.com/githubmor](https://github.com/githubmor)
+- **Location**: Babol, Mazandaran, Iran
 
 ## Overview
 A modern developer portfolio built with **Next.js**, **TypeScript**, and **Tailwind CSS**, featuring:
@@ -13,6 +25,8 @@ A modern developer portfolio built with **Next.js**, **TypeScript**, and **Tailw
 ## Demo  
 🚀 **Try it out!**  
 👉 [Live Demo Link](https://morteza-darzi.liara.run/)  
+
+
 
 Key demo features:  
 - 🎨 Toggle between light/dark mode  
