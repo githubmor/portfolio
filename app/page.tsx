@@ -6,7 +6,7 @@ import {
   Header,
   Hero,
   Skills,
-  Testimonials,
+  // Testimonials,
   Work,
 } from "./(sections)";
 
@@ -20,7 +20,7 @@ export default function Home() {
         <Skills />
         <Experience />
         <Work />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <ContactMe />
         <Footer />
       </main>
