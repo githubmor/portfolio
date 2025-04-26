@@ -26,6 +26,7 @@ function ShopDr() {
           <Tag text="Next.js" />
           <Tag text="TypeScript" />
           <Tag text="Tailwind" />
+          <Tag text="SWR" />
           <Tag text="Daisyui" />
           <Tag text="Figma" />
         </div>
